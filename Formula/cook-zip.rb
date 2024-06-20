@@ -1,14 +1,14 @@
 class CookZip < Formula
   desc "プログラミング実習の提出物を ZIP にするよ"
   homepage "https://github.com/wappon28dev/prg1k"
-  version "2.3.1"
+  version "2.4.1"
 
   if OS.mac?
-    url "https://github.com/wappon28dev/prg1k/releases/download/v2.3.1/cook-zip-macos-x64"
-    sha256 "83599983cf77f4e93e0f0840ccb090d1d96561177db94be2e19ffd7c73abb810"
+    url "https://github.com/wappon28dev/prg1k/releases/download/v2.4.1/cook-zip-macos-x64"
+    sha256 "bc827f8af581c216f247ab000178463d6dc637e90dd5407ec3a2296f68009907"
   elsif OS.linux?
-    url "https://github.com/wappon28dev/prg1k/releases/download/v2.3.1/cook-zip-linux-x64"
-    sha256 "0f0d5b447c0cfe4d519487342a508b81d6514c94a5039d9d7cfac229c95d9acd"
+    url "https://github.com/wappon28dev/prg1k/releases/download/v2.4.1/cook-zip-linux-x64"
+    sha256 "835e840d609041f56e128a98d037fc8bdabfd8d26e2dbafdd722ede9374906d0"
   end
 
   license "MIT"
